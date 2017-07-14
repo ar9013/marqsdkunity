@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/luokangyu/tools/adt-bundle-mac-x86_64/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_210efc3d30048fc95070102578dd6975e46400bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/bundles/default/libs/google-play-services.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f49cf6c8a54e61c0bb3f25652ed3a4d4f0e19ad0">
+        <dex dex="/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/8/google-play-services_7c58813bcc2d4801e464194a228308f6af56e3bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4f69fce1ff9d15f370d3358e67e4661b581ad661/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="306cb374c0920dd5ec1907c17d845991bfddf39b">
+        <dex dex="/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c9ecf0083242b4f6283a21835fdcf8fff6ad7fbc/classes.dex" />
+    </item>
+
+</items>

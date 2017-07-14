@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"   >
+
+    
+    <RelativeLayout 
+        android:id="@+id/layoutPhotoPreviewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="90px" >
+        
+ 		<ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_browser_background" />          
+    	
+    	<Button
+        	android:id="@+id/btnGalleryBack"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_alignParentTop="true"
+        	android:layout_centerVertical="true"
+        	android:layout_marginLeft="102px"
+        	android:background="@drawable/btn_back" />
+    
+    </RelativeLayout>    
+
+   <RelativeLayout
+        android:id="@+id/layoutPhotoPreviewPreview"
+    	android:layout_below="@+id/layoutPhotoPreviewTitle"  
+    	android:layout_above="@+id/layoutPhotoPreviewBottom"    	      
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_centerHorizontal="true">
+    	    
+    <ImageView
+        android:id="@+id/ivPhotoPreviewPreview"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+        />
+    
+    </RelativeLayout>   
+    
+   
+    <RelativeLayout 
+        android:id="@+id/layoutPhotoPreviewBottom"
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:layout_alignParentBottom="true"  >
+ 		
+ 		<ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_browser_background" />    
+            	
+		<Button
+		    android:id="@+id/btnPhotoPreviewFbShare"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+        	android:layout_centerVertical="true"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentBottom="true"
+		    android:layout_marginLeft="106px"
+		    android:background="@drawable/gallery_btn_share" />
+	
+		<Button
+		    android:id="@+id/btnPhotoPreviewFileDelete"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+        	android:layout_centerVertical="true"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentBottom="true"
+		    android:layout_marginRight="118px"    
+		    android:background="@drawable/gallery_btn_delete" />
+
+    </RelativeLayout>   
+</RelativeLayout>

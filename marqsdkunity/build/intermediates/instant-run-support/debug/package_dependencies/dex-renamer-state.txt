@@ -1,0 +1,7 @@
+#Tue Jul 11 17:02:06 CST 2017
+base.0=/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_210efc3d30048fc95070102578dd6975e46400bb
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/8/google-play-services_7c58813bcc2d4801e464194a228308f6af56e3bd/classes.dex
+base.1=/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/8/google-play-services_7c58813bcc2d4801e464194a228308f6af56e3bd
+file.0=/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_210efc3d30048fc95070102578dd6975e46400bb/classes.dex

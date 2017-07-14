@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aboutmarq_subtitle">"关于marq+"</string>
+	<string name="aboutmarq_describe">"结合AR与QR的先进科技，让使用者和数码资讯透过AR的虚实整合，将您的视野真正与世界连结!marq+将赋予灵魂至报纸，杂志，产品包装，海报，看板等生活将如电影魔法般的开演，人们所见将不再局限于屏幕上的资讯，而是更直觉，更生动，更丰富以及更惊艳的生活体验!"</string>
+	
+	<string name="index_title_howto">"How to marq+"</string>
+	<string name="index_howtostep01">"按下\"立即体验\""</string>
+	<string name="index_howtostep02">"将镜头对准指定图片"</string>
+	<string name="index_howtostep03">"marq+精彩你的生活"</string>
+	
+	<string name="index_title_usecase">"更多应用"</string>
+	<string name="index_usecase01">"报纸"</string>
+	<string name="index_usecase02">"杂志"</string>
+	<string name="index_usecase03">"海报"</string>
+	<string name="index_usecase04">"广告牌"</string>
+	<string name="index_usecase05">"传单"</string>
+	<string name="index_usecase06">"产品包装"</string>
+	<string name="index_usecase07">"卡片名片"</string>
+	
+	<string name="index_btn_howto">"How to marq+"</string>
+	<string name="index_btn_usecase">"更多应用"</string>
+	<string name="index_btn_startscan">"立即体验"</string>
+	
+	<string name="msg_photo_share_success">"相片分享成功！"</string>
+	<string name="msg_photo_share_fail">"相片分享失败！"</string>
+	<string name="msg_photo_save_success">"储存成功！"</string>
+	<string name="msg_photo_save_fail">"储存失败！"</string>
+	<string name="msg_network_status_unstable">"网络目前不稳"</string>
+	<string name="msg_network_status_noconnection">"尚未链接到网络"</string>
+	<string name="msg_share_suceess">"分享成功"</string>
+	<string name="msg_share_cancel">"取消分享"</string>
+	<string name="msg_photo_delete">"删除此照片?"</string>
+	
+	<string name="msg_fb_permission_error">Facebook Permission Error!</string>
+	<string name="msg_fb_exception">Facebook Exception</string>
+	
+	<string name="string_yes">"确定"</string>
+	<string name="string_no">"取消"</string>
+	<string name="string_ok"></string>
+	<string name="string_cancel">"取消"</string>
+	<string name="string_open">"开启"</string>
+	<string name="string_close">"关闭"</string>
+	<string name="string_copy">"复制"</string>
+	<string name="string_try_again">"请再试一次！"</string>
+	<string name="string_try_later">"稍后再试"</string>
+
+	<string name="string_back">"返回"</string>
+	
+	<string name="string_title_share_to_friend">"转发给朋友"</string>
+	
+    <string name="photo_gallery_title">我的相本</string> 
+    <string name="dialog_shared_type_title">分享&#8230;</string>      
+    
+    <string name="msg_photo_gallery_empty">相本没有照片</string>
+    <string name="dialog_title_qr_msg">QR Code</string>
+    <string name="dialog_button_qr_open_url">开启网页</string>    
+    <string name="dialog_button_qr_copy_url">复制连结</string>   
+</resources>

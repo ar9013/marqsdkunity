@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/icon_app_marq.png",
+        "source": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/icon_app_marq.png"
+    },
+    {
+        "merged": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/ic_launcher.png"
+    }
+]

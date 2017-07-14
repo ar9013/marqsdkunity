@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/res/merged/debug/layout/marq_webbrowser.xml",
+        "source": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/bundles/default/res/layout/marq_webbrowser.xml"
+    },
+    {
+        "merged": "/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/res/merged/debug/layout/marq_webcontents.xml",
+        "source": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/bundles/default/res/layout/marq_webcontents.xml"
+    },
+    {
+        "merged": "/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/res/merged/debug/layout/marq_splashscreen.xml",
+        "source": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/bundles/default/res/layout/marq_splashscreen.xml"
+    },
+    {
+        "merged": "/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/res/merged/debug/layout/marq_howto.xml",
+        "source": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/bundles/default/res/layout/marq_howto.xml"
+    },
+    {
+        "merged": "/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/res/merged/debug/layout/scratch_main.xml",
+        "source": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/bundles/default/res/layout/scratch_main.xml"
+    },
+    {
+        "merged": "/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/res/merged/debug/layout/dialog_result_listrow.xml",
+        "source": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/bundles/default/res/layout/dialog_result_listrow.xml"
+    },
+    {
+        "merged": "/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/res/merged/debug/layout/loading_layout.xml",
+        "source": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/bundles/default/res/layout/loading_layout.xml"
+    },
+    {
+        "merged": "/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/res/merged/debug/layout/photo_preview.xml",
+        "source": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/bundles/default/res/layout/photo_preview.xml"
+    },
+    {
+        "merged": "/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/res/merged/debug/layout/marq_gallery.xml",
+        "source": "/Users/luokangyu/BuildEx/marqsdkunity/marqSDKAndroid/build/intermediates/bundles/default/res/layout/marq_gallery.xml"
+    }
+]

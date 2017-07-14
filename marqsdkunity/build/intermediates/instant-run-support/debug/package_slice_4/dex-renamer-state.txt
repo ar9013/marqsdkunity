@@ -1,0 +1,4 @@
+#Tue Jul 11 17:02:07 CST 2017
+base.0=/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
+renamed.0=classes.dex
+file.0=/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex

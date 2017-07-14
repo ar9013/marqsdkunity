@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2" >
+    
+    <ImageView
+        android:id="@+id/ivIndexLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/img_marqlogo_blue" />
+    
+    <TextView
+        android:id="@+id/tvIndexTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivIndexLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#737373"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Gallery
+        android:id="@+id/galleryHowto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fadingEdge="none"
+        android:spacing="5dp" />
+    
+    <TextView
+        android:id="@+id/tvDescrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/galleryHowto"
+        android:layout_marginBottom="60dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#595959"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnModeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnStartScan"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_index_usecases"
+        android:text="@string/index_btn_usecase"
+        android:textColor="#737373"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnStartScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_index_startscan"
+        android:text="@string/index_btn_startscan"
+        android:textColor="#EFEFEF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

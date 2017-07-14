@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aboutmarq_subtitle">"marq+について"</string>
+	<string name="aboutmarq_describe">"ARとQRを連結する先端技術を通じて、ユーザーがデジタル情報を手に入れ、世界と繋がることができる。marq+は新聞、雑誌、ポスター、看板、チラシ、商品包装、カードなどに魂を入れて、多彩な生活をもたらす、より豊かな、面白い生活体験ができるようになる。"</string>
+	
+	<string name="index_title_howto">"How to marq+"</string>
+	<string name="index_howtostep01">"「すぐ体験」を押す"</string>
+	<string name="index_howtostep02">"指定の絵に焦点を当たる"</string>
+	<string name="index_howtostep03">"marq+が多彩な生活をもたらす"</string>
+	
+	<string name="index_title_usecase">"より多くアプリ"</string>
+	<string name="index_usecase01">"新聞"</string>
+	<string name="index_usecase02">"雑誌"</string>
+	<string name="index_usecase03">"ポスター"</string>
+	<string name="index_usecase04">"看板"</string>
+	<string name="index_usecase05">"チラシ"</string>
+	<string name="index_usecase06">"商品包装"</string>
+	<string name="index_usecase07">"カード、名刺"</string>
+	
+
+	<string name="index_btn_usecase">"より多くアプリ"</string>
+	<string name="index_btn_startscan">"すぐ体験する"</string>
+	
+	<string name="index_btn_howto">"How to marq+"</string>
+	<string name="msg_photo_share_success">"写真のシェアに成功！"</string>
+	<string name="msg_photo_share_fail">"写真のシェアに失敗！"</string>
+	<string name="msg_photo_save_success">"写真の保存に成功！"</string>
+	<string name="msg_photo_save_fail">"写真の保存に失敗！"</string>
+	<string name="msg_network_status_unstable">"ネット信号が不安定ですから"</string>
+	<string name="msg_network_status_noconnection">"ネットワークにまだ接続できません"</string>
+	<string name="msg_share_suceess">"シェアに成功"</string>
+	<string name="msg_share_cancel">"シェアに取消"</string>
+	<string name="msg_photo_delete">"この写真を削除?"</string>
+	
+	<string name="msg_fb_permission_error">Facebook Permission Error!</string>
+	<string name="msg_fb_exception">Facebook Exception</string>
+	
+	<string name="string_yes">"確定"</string>
+	<string name="string_no">"取消"</string>
+	<string name="string_ok"></string>
+	<string name="string_cancel">"取消"</string>
+	<string name="string_open">"開く"</string>
+	<string name="string_close">"閉じる"</string>
+	<string name="string_copy">"コピー"</string>
+	<string name="string_try_again">"もう一度お試し下さい。"</string>
+	<string name="string_try_later">"時間をおいてから再度トライ！"</string>
+	
+	<string name="string_back">"返回"</string>
+	
+	<string name="string_title_share_to_friend">"友達へシェア"</string>
+
+	    <string name="photo_gallery_title">マイアルバム</string> 
+    <string name="msg_photo_gallery_empty">アルバムに写真なし</string>
+    <string name="dialog_shared_type_title">シェア先を選択&#8230;</string>      
+    
+    <string name="dialog_title_qr_msg">QR Code</string>
+    <string name="dialog_button_qr_open_url">ウェブページを開く</string>    
+    <string name="dialog_button_qr_copy_url">リンクをコピー/コピー</string>   	
+</resources>

@@ -1,0 +1,7 @@
+#Wed Jul 12 11:04:23 CST 2017
+base.0=/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c9ecf0083242b4f6283a21835fdcf8fff6ad7fbc
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4f69fce1ff9d15f370d3358e67e4661b581ad661/classes.dex
+base.1=/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4f69fce1ff9d15f370d3358e67e4661b581ad661
+file.0=/Users/luokangyu/BuildEx/marqsdkunity/marqsdkunity/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c9ecf0083242b4f6283a21835fdcf8fff6ad7fbc/classes.dex

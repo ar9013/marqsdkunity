@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    tools:context=".MarqWebView" >
+
+    <!--
+    <RelativeLayout 
+        android:id="@+id/layoutWebContentsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" >
+    	
+    	<Button
+        	android:id="@+id/btnWebContentsGoBack"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:layout_marginLeft="10dp"
+        	android:background="@drawable/btn_back" />
+    	
+    	<TextView
+        	android:id="@+id/tvWebContentsTitle"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerVertical="true"
+        	android:layout_centerHorizontal="true"
+        	android:maxLines="1"
+        	android:maxWidth="150dp"
+        	android:text=""
+        	android:textColor="#0000FF"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+    	
+    	<Button
+        	android:id="@+id/btnWebContentsStartScan"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:layout_centerVertical="true"
+        	android:layout_marginRight="10dp"
+        	android:background="@drawable/btn_startscan" />
+    
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_below="@+id/layoutWebContentsTitle"
+    	android:paddingBottom="20dp" >
+    	
+    	<RelativeLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="match_parent"
+    	    android:id="@+id/layoutWebContentsMain" >
+     	    
+    	    <ImageView
+        		android:id="@+id/ivWebContentsHeadPhotoBackground"
+        		android:layout_width="match_parent"
+        		android:layout_height="200dp"
+        		android:layout_centerHorizontal="true"		
+        		android:background="#FFFFFF" />
+    	    
+    		<ImageView
+        		android:id="@+id/ivWebContentsHeadPhoto"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_centerHorizontal="true"       		
+		        android:layout_marginTop="40dp"
+        		android:background="@drawable/img_setting_headphoto_default" />
+
+    		<TextView
+    		    android:id="@+id/tvWebContentsSocialName"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_below="@+id/fbProfilePicture"
+    		    android:layout_centerHorizontal="true"
+    		    android:layout_marginTop="10dp"
+    		    android:text=""
+    		    android:textSize="25dp"
+    		    android:textColor="#000000" />
+    
+    		<ImageView
+        		android:id="@+id/ivWebContentsTitleSocial"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/ivWebContentsHeadPhotoBackground"
+        		android:layout_marginTop="30dp"
+        		android:layout_alignLeft="@+id/btnWebContentsMyGallery"
+        		android:src="@drawable/img_setting_title_social" />
+   
+    		<ImageView
+        		android:id="@+id/ivWebContentsSocialFbBackground"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/ivWebContentsTitleSocial"
+        		android:layout_marginTop="10dp"
+        		android:layout_alignLeft="@+id/btnWebContentsMyGallery"
+        		android:background="@drawable/img_setting_social_fb_background" />
+    
+    		<Button
+        		android:id="@+id/btnWebContentsSocialFacebookLogout"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_alignBottom="@+id/ivWebContentsSocialFbBackground"
+        		android:layout_alignRight="@+id/ivWebContentsSocialFbBackground"
+        		android:layout_marginBottom="10dp"
+        		android:layout_marginRight="10dp"
+        		android:background="@drawable/btn_setting_social_logout" />
+   
+    		<ImageView
+        		android:id="@+id/ivWebContentsTitleMyGallery"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_alignLeft="@+id/btnWebContentsMyGallery"
+        		android:layout_below="@+id/ivWebContentsSocialFbBackground"
+        		android:layout_marginTop="20dp"
+        		android:src="@drawable/img_setting_title_mygallery" />
+    
+    		<Button
+        		android:id="@+id/btnWebContentsMyGallery"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_centerHorizontal="true"
+        		android:layout_below="@+id/ivWebContentsTitleMyGallery"
+        		android:layout_marginTop="10dp"
+        		android:background="@drawable/btn_setting_gallery" />
+    
+    		<ImageView
+        		android:id="@+id/ivWebContentsTitleMarqPlus"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/btnWebContentsMyGallery"
+        		android:layout_marginTop="20dp"
+        		android:layout_alignLeft="@+id/btnWebContentsMyGallery"
+        		android:src="@drawable/img_setting_title_aboutmarq" />
+    
+    		<Button
+        		android:id="@+id/btnWebContentsAboutMarqPlus"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_centerHorizontal="true"
+        		android:layout_alignLeft="@+id/btnWebContentsMyGallery"
+        		android:layout_below="@+id/ivWebContentsTitleMarqPlus"
+        		android:layout_marginTop="10dp"
+        		android:background="@drawable/btn_setting_aboutmarq" />
+
+    		<Button
+        		android:id="@+id/btnWebContentsContactUs"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_centerHorizontal="true"
+        		android:layout_alignLeft="@+id/btnWebContentsMyGallery"
+        		android:layout_below="@+id/btnWebContentsAboutMarqPlus"
+        		android:layout_marginTop="10dp"
+        		android:background="@drawable/btn_setting_contactus" />
+
+    		<Button
+        		android:id="@+id/btnWebContentsMoreApps"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_alignLeft="@+id/btnWebContentsMyGallery"
+        		android:layout_below="@+id/btnWebContentsContactUs"
+        		android:layout_marginTop="10dp"
+        		android:background="@drawable/btn_setting_moreapps" />
+    		
+    		<ToggleButton
+        		android:id="@+id/tglbtnGCM"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_alignLeft="@+id/btnWebContentsMyGallery"
+        		android:layout_below="@+id/btnWebContentsMoreApps"
+        		android:layout_marginTop="10dp"
+        		android:textOff="Message Receiver\nOff"
+        		android:textOn="Message Receiver\nOn" />
+ 
+    	</RelativeLayout>
+    </ScrollView>
+    -->
+
+    <RelativeLayout
+        android:id="@+id/layoutWebContentsMainWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutWebContentsTitle"
+        android:layout_centerHorizontal="true" >
+
+        <WebView
+            android:id="@+id/wvContentsBrowser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

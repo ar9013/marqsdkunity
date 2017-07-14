@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/WebBrowser"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0" >
+
+    <RelativeLayout 
+        android:id="@+id/layoutWebTitle"
+        android:layout_width="match_parent"
+        android:layout_height="90px" >
+        
+ 		<ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_browser_background" />  
+             	
+    	<Button
+        	android:id="@+id/btnWebExit"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_alignParentTop="true"
+        	android:layout_centerVertical="true"
+        	android:layout_marginLeft="102px"
+        	android:background="@drawable/btn_back" />
+    	
+    	<TextView
+        	android:id="@+id/tvWebTitle"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerVertical="true"
+        	android:layout_centerHorizontal="true"
+        	android:maxLines="1"
+        	android:maxWidth="150dp"
+        	android:text=""
+        	android:textColor="#FFFFFF"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+    	
+    	<Button
+        	android:id="@+id/btnWebBrowser"
+        	style="?android:attr/buttonStyleSmall"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:layout_centerVertical="true"
+        	android:layout_marginRight="101px"
+        	android:background="@drawable/btn_browser_openbrowser" />    
+    </RelativeLayout>
+    
+   <RelativeLayout
+        android:id="@+id/layoutWebMain"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_below="@+id/layoutWebTitle"
+    	android:layout_above="@+id/layoutWebBottom"
+    	android:layout_centerHorizontal="true">
+    	
+    	<WebView
+        	android:id="@+id/wvBrowser"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_alignParentLeft="true"
+        	android:layout_alignParentRight="true" />    	
+    </RelativeLayout>
+
+    <RelativeLayout 
+        android:id="@+id/layoutWebBottom"
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:layout_alignParentBottom="true" >
+    	
+ 		<ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_browser_background" />    
+          	
+    	<Button
+        	android:id="@+id/btnWebPrePage"
+        	style="?android:attr/buttonStyleSmall"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"       	
+        	android:layout_centerVertical="true"
+        	android:layout_marginLeft="102px"
+        	android:background="@drawable/btn_browser_previous" />
+
+    	<Button
+        	android:id="@+id/btnWebNextPage"
+        	style="?android:attr/buttonStyleSmall"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:layout_marginLeft="100px"
+        	android:background="@drawable/btn_browser_next" />
+
+    	<Button
+        	android:id="@+id/btnWebRefresh"
+        	style="?android:attr/buttonStyleSmall"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentBottom="true"
+        	android:layout_alignParentLeft="true"	
+        	android:layout_marginLeft="121px"
+   	        android:background="@drawable/btn_browser_refresh" />
+    
+    </RelativeLayout>
+    
+    
+
+    
+
+</RelativeLayout>

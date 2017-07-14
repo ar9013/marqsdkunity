@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="index_title_howto">"How to marq+"</string>
+	<string name="index_howtostep01">"Press \"Experience Now\""</string>
+	<string name="index_howtostep02">"Focus the object with mobile camera"</string>
+	<string name="index_howtostep03">"marq+ colors your life"</string>
+	
+	<string name="index_title_usecase">"More applications"</string>
+	<string name="index_usecase01">"Newspapers"</string>
+	<string name="index_usecase02">"Magazine"</string>
+	<string name="index_usecase03">"Poster"</string>
+	<string name="index_usecase04">"Commercial board"</string>
+	<string name="index_usecase05">"Flyers"</string>
+	<string name="index_usecase06">"Product package"</string>
+	<string name="index_usecase07">"Invitation card / Business card"</string>
+	
+	<string name="index_btn_howto">"How to marq+"</string>
+	<string name="index_btn_usecase">"More applications"</string>
+	<string name="index_btn_startscan">"Experience now"</string>
+	
+	<string name="msg_photo_share_success">"Photo sharing is successful!"</string>
+	<string name="msg_photo_share_fail">"Photo sharing is failed!"</string>
+	<string name="msg_photo_save_success">"The photo has been saved."</string>
+	<string name="msg_photo_save_fail">"Failed to save!"</string>
+	<string name="msg_network_status_unstable">"Your internet connection is unstable"</string>
+	<string name="msg_network_status_noconnection">"Not connecting to internet"</string>
+	<string name="msg_share_suceess">"Sharing success"</string>
+	<string name="msg_share_cancel">"Sharing cancel"</string>
+	<string name="msg_photo_delete">"Delete the photo?"</string>
+	
+	
+	<string name="string_yes">"Yes"</string>
+	<string name="string_no">"No"</string>
+	<string name="string_ok">"OK"</string>
+	<string name="string_cancel">"Cancel"</string>
+	<string name="string_open">"Open"</string>
+	<string name="string_close">"Close"</string>
+	<string name="string_copy">"Copy"</string>
+	<string name="string_try_again">"Please try again!"</string>
+	<string name="string_try_later">"Please try again later!"</string>
+	
+	<string name="string_back">"Back"</string>
+	
+	<string name="string_title_share_to_friend">"Share to friends"</string>
+	
+    
+    <string name="scan_mode">101</string>
+    
+    
+    <string name="photo_gallery_title">My photo album</string>  
+    <string name="msg_photo_gallery_empty">No Photos</string>
+    <string name="dialog_shared_type_title">Share to &#8230;(Share)</string>    
+    
+    <string name="dialog_title_qr_msg">QR Code</string>
+    <string name="dialog_button_qr_open_url">Open Page</string>    
+    <string name="dialog_button_qr_copy_url">Copy Url</string>       
+</resources>

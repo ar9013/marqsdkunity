@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marq.plus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>  
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+<!--  
+    <permission
+        android:name="com.marq.plus.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+-->
+    <uses-permission
+        android:name="com.marq.plus.permission.C2D_MESSAGE" />  
+                       
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"  >
+<!--
+android:name="com.marq.plus.MarqSDKAndroid"
+	    <activity android:name="com.marq.plus.unity.MarqUnityPlayerNativeActivity"
+	             android:label="@string/app_name"
+	             android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
+	        <intent-filter>
+	            <action android:name="android.intent.action.MAIN" />
+	            <category android:name="android.intent.category.LAUNCHER" />
+	        </intent-filter>
+	    </activity>
+ -->
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.marq.plus" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.marq.plus.MarqGcmListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.marq.plus.MarqInstanceIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+        
+        <activity android:label="@string/app_name"
+                  android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+                  android:name="com.marq.plus.MarqSplashScreen"
+                  android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    
+        <activity android:name="com.marq.plus.ScratchActivity"
+            	  android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            	  android:configChanges="keyboardHidden|orientation"  
+            	  android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.marq.plus.MarqWebBrowser"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation"  
+            android:screenOrientation="portrait">
+    	</activity>
+        
+        <activity android:name="com.marq.plus.MarqWebView"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity android:name="com.marq.plus.MarqHowTo"
+            	  android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            	  android:configChanges="keyboardHidden|orientation"  
+            	  android:screenOrientation="portrait">
+        </activity>
+        
+        <activity android:name="com.marq.plus.MarqGalleryList"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity
+            android:name="com.marq.plus.MarqPhotoPreview"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <meta-data  android:name="com.marq.plus.LaunchBySplashScreen" 
+            		android:value="com.marq.plus.MarqHowTo" /> 
+
+        <meta-data  android:name="com.marq.plus.ProductPathPrefix" 
+            		android:value="marqplus" />             		
+        <meta-data  android:name="com.marq.plus.GalleryPathPrefix" 
+            		android:value="gallery" /> 
+        <meta-data  android:name="com.marq.plus.ScratchPathPrefix" 
+            		android:value="scratch" />         
+        		
+    	<meta-data android:name="com.marq.plus.GcmSendId" 
+    	    	   android:value="\ 587647599129" />          		
+
+    </application>
+
+</manifest>

@@ -1,0 +1,2 @@
+include ':marqSDKAndroid', ':unity-classes'
+include ':marqsdkunity'

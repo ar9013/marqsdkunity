@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"  >
+    
+    <RelativeLayout 
+        android:id="@+id/layoutGalleryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="90px" >
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_browser_background" />     
+ <!--          
+    	<ImageView
+        	android:id="@+id/ivGalleryTitleBackground"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_alignParentTop="true"
+        	android:layout_centerHorizontal="true"
+        	android:background="#F0F0F0" />
+    
+    	<ImageView
+        	android:id="@+id/ivGalleryTitle"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerHorizontal="true"
+        	android:layout_centerVertical="true"
+        	android:src="@drawable/img_gallery_title" />
+-->    
+    	<TextView
+    	    android:id="@+id/textView1"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignTop="@+id/ivGalleryTitle"
+    	    android:layout_centerHorizontal="true"
+        	android:layout_centerVertical="true"    	    
+    	    android:text="@string/photo_gallery_title"
+
+        	android:textColor="#FFFFFF"		     	
+        	android:textStyle="normal"    	    
+    	    android:textAppearance="?android:attr/textAppearanceLarge" />
+    	
+    	<Button
+        	android:id="@+id/btnGalleryStartScan"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:layout_alignParentTop="true"
+        	android:layout_centerVertical="true"
+        	android:layout_marginRight="101px"
+        	android:background="@drawable/btn_startscan" />
+    	
+    	<Button
+        	android:id="@+id/btnGalleryBack"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_alignParentTop="true"
+        	android:layout_centerVertical="true"
+            android:layout_marginTop="100px"
+        	android:background="@drawable/btn_back" />
+
+
+    
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutGalleryTitle"
+        android:background="#FFFFFF" >
+
+        <GridView
+            android:id="@+id/gvMarqGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:numColumns="3"
+            android:verticalSpacing="10dp" >
+        </GridView>
+
+    </RelativeLayout>
+    
+</RelativeLayout>

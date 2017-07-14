@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/marqSDKAndroid/marqSDKAndroid.iml" filepath="$PROJECT_DIR$/marqSDKAndroid/marqSDKAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/marqsdkunity.iml" filepath="$PROJECT_DIR$/marqsdkunity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/marqsdkunity/marqsdkunity-marqsdkunity.iml" filepath="$PROJECT_DIR$/marqsdkunity/marqsdkunity-marqsdkunity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unity-classes/unity-classes.iml" filepath="$PROJECT_DIR$/unity-classes/unity-classes.iml" />
+    </modules>
+  </component>
+</project>
